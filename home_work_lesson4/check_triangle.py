@@ -1,6 +1,4 @@
      
-
-
 # function to check if three sides
 def checkSides(a, b, c):
     if (a+b < c) or (a+c < b) or (b+c < a):
@@ -24,4 +22,4 @@ try:
  
     checkSides(a, b, c)
 except:
-    print("Invalid input")
+    print("Oops! Invalid value... ")
