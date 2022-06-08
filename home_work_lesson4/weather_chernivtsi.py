@@ -5,7 +5,7 @@ import datetime
 
 sity = "Chernivtsi"
 
-BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=Chernivtsi,ua&APPID=4f5c9c651c9780821d1f8fc42a8d12bf"
+BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=Chernivtsi,ua&APPID=4f5c9c651c9780821d1f8fc42a8d"
 
 url = BASE_URL
 

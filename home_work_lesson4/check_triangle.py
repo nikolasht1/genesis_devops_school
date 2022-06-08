@@ -1,3 +1,6 @@
+     
+
+
 # function to check if three sides
 def checkSides(a, b, c):
     if (a+b < c) or (a+c < b) or (b+c < a):
@@ -14,8 +17,11 @@ def checkSides(a, b, c):
     else:
         print ("The triangle is versatile.")
 
-a = float (input ("Please enter a value side, a: "))
-b = float (input ("Please enter a value side, b: "))
-c = float (input ("Please enter a value side, c: "))
+try:
+    a = float (input ("Please enter a value side, a: "))
+    b = float (input ("Please enter a value side, b: "))
+    c = float (input ("Please enter a value side, c: "))
  
-checkSides(a, b, c)
+    checkSides(a, b, c)
+except:
+    print("Invalid input")
